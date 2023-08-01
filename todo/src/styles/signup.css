@@ -3,12 +3,15 @@ body {
     background-repeat: "no-repeat";
     background-size: "cover";
     background-position: "center";
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    overflow: "hidden";
+    width: 100vw;
+    height: "100vh";
+    display: "flex";
+    justify-content: "center";
+    align-items: "center";
 }
 
-/*div .cont {
+div .cont {
     border-radius: 20px;
     padding: 10px;
 }
@@ -59,19 +62,27 @@ h2 {
     display: flex;
     justify-content: center;
 }
- */
 
- .glassmorphism {
-    background: rgba(255, 255, 255, 0.2);
+
+.glassmorphism {
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.2);
     padding: 16px;
-  }
+    width: 25vw;
+    height: 85vh;
+}
 
 .logo {
     display: grid;
     place-items: center;
+}
+
+.paperStyle {
+    padding: 30px;
+    width: 18vw;
+    height: 70vh;
 }
 
 

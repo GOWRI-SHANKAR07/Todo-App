@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import styles from '../styles/styles.css';
 import { AiOutlineSend } from "react-icons/ai";
 
 const Todo = () => {

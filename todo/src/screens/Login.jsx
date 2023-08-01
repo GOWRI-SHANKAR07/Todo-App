@@ -34,7 +34,7 @@ const Login = () => {
                 </label>
                 <h4>Forgot Password</h4>
                 <button style={{ backgroundColor: '#2dce65', fontSize: '18px' }}>Login</button>
-                <h2>OR</h2>
+                <img src=''/>
             </div>
         </div>
     )
