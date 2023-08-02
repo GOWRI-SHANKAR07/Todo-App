@@ -8,12 +8,13 @@ import SignupScreen from './screens/SignupScreen';
 
 export default function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path='/login' element={<LoginScreen />} />
-        <Route path='/signup' element={<SignupScreen />} />
-      </Routes>
-    </Router>
+    // <Router>
+    //   <Routes>
+    //     <Route path='/login' element={<LoginScreen />} />
+    //     <Route path='/signup' element={<SignupScreen />} />
+    //   </Routes>
+    // </Router>
+    <Todo />
   )
 }
 
