@@ -1,8 +1,13 @@
 body {
     display: flex;
     justify-content: center;
-    background-color: #00A8E8;
+    background-color: #331D2C;
     color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #fff;
 }
 
 div .container {
@@ -13,7 +18,7 @@ div .container {
 
 }
 
-div .inpCont {
+div .Cont {
     width: 100%;
     height: 100%;
 }
@@ -25,23 +30,35 @@ div .login-btn {
     align-items: center;
 }
 
+div .inpCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #fff; */
+}
+
 div .input {
     width: 40%;
     height: 3%;
     margin: 10px;
     padding-left: 15px;
-    color: wheat;
+    color: white;
     font-size: 20px;
-    border: 2px solid #331D2C;
-    background-color: #331D2C;
-    border-radius: 40px;
+    border: 2px solid #00A8E8;
+    background-color: #00A8E8;
+    border-radius: 10px;
+}
+
+.input::placeholder {
+    color: white;
 }
 
 div .button {
-    position: absolute;
-    margin-top: 1.4%;
-    right: 30%;
-    color: aqua;
+    color: white;
+    background-color: #00A8E8;
+    border-radius: 10px;
+    size: 10;
+    padding: 18px;
 }
 
 ul {
@@ -49,6 +66,7 @@ ul {
     padding: 0;
     margin-right: 29%;
     margin-left: 29%;
+    width: 100%;
 }
 
 li {
@@ -58,16 +76,76 @@ li {
     /* padding: 4px; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 20px;
-    border-radius: 30px;
-    border: 1px solid #ccc;
-    background-color: #331D2C;
+    border-radius: 10px;
+    background-color: #ccc;
     margin-bottom: 8px;
-    color: #ccc;
+    color: #000;
     font-size: 18px;
 }
 
-ul .deleteTask{
-    background-color: #331D2C;
+ul .deleteTask {
+    background-color: #00A8E8;
     margin-right: 18px;
     width: 10px;
+    height: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+div .listCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editTask {
+    /* width: 10%; */
+    margin: 10px;
+    background-color: #00A8E8;
+}
+
+.lstBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div .editCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+}
+
+div .editBtn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.saveBtn {
+    background-color: rgb(2, 93, 2);
+}
+
+.cancelBtn {
+    background-color: rgb(176, 3, 3);
+    margin-left: 10px;
+}
+
+div .editInp {
+    display: flex;
+    justify-self: flex-start;
+    margin-left: -10px;
+    width: 50vw;
+    font-size: 20px;
+}
+
+.inpCont {
+    flex: 1;
+}
+
+.taskList {
+    display: flex;
+    justify-content: space-between;
 }
